@@ -1,12 +1,8 @@
-.examples {
+.section--no-padding-top {
   padding-top: 0px;
 }
 
-.examples__title {
-  @extend %section-title;
-}
-
-.examples__list {
+.examples {
   display: flex;
 }
 

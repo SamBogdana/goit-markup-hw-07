@@ -54,6 +54,17 @@ textarea {
   padding-bottom: 94px;
 }
 
+.section__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -63,18 +74,4 @@ textarea {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
-}
-
-.current::after {
-  content: "";
-
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: $accent-color;
-  border-radius: 2px;
 }
